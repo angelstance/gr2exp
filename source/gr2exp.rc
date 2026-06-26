@@ -1,0 +1,28 @@
+#include "gr2expres.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    IDS_GR2_EXPORTER    "GR2 Exporter"
+    IDS_LIBDESCRIPTION  "GR2 File Exporter"
+    IDS_GR2_FILE        "Granny .GR2 File"
+    IDS_AUTHOR          "angelstance"
+    IDS_SCENEEXPORT     "Scene Export"
+    IDS_COPYRIGHT       "Copyright 2026"
+END
+
+#endif
+
+#ifndef APSTUDIO_INVOKED
+#include "veroverrides.h"
+#include "maxversion.r"
+#endif
